@@ -1,10 +1,10 @@
 # Gatling demo for Java
 
 Command to Run recorder
-mvn gatling:recorder
+"mvn gatling:recorder"
 
-Command to Run test
-mvn gatling:test -Dgatling.simulationClass=apitests.API_Test01 (Provide Class name for gatling test you want to run)
+Command to Run tests 
+"mvn gatling:test -Dgatling.simulationClass=apitests.API_Test01" (Provide Class name for gatling test you want to run)
 
 
 
